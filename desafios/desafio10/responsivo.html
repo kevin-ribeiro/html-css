@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+            text-align: justify;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            
+            /*Ao invés de usar somente width 
+            para ser responsivo*/
+            min-width: 280px;  
+            /*Para dispositivos mais antigos*/
+            max-width: 800px;
+            /*Max mesmo em telas grandes*/
+
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste Responsividade</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae enim consequuntur voluptatem ab ex eaque animi. At veritatis officiis, nemo est deserunt illo doloribus quasi possimus libero excepturi. Hic, odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, praesentium beatae. Ad sed eaque natus atque doloribus, molestiae libero ullam ipsa voluptates eius quidem placeat. Eius ducimus officiis blanditiis tempore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint sed iusto perferendis, omnis commodi aspernatur ea, nemo quia cum sapiente ipsam impedit voluptates. Commodi, quis expedita voluptas molestiae nobis veniam!</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae enim consequuntur voluptatem ab ex eaque animi. At veritatis officiis, nemo est deserunt illo doloribus quasi possimus libero excepturi. Hic, odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, praesentium beatae. Ad sed eaque natus atque doloribus, molestiae libero ullam ipsa voluptates eius quidem placeat. Eius ducimus officiis blanditiis tempore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint sed iusto perferendis, omnis commodi aspernatur ea, nemo quia cum sapiente ipsam impedit voluptates. Commodi, quis expedita voluptas molestiae nobis veniam!</p>
+    </main>
+</body>
+</html>

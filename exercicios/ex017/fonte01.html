@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* O navegador irá tentar cada fonte na ordem em que está escrito */
+        
+            /* 
+            Tamanhos de Fontes - font-size
+
+            Medidas Absolutas:
+            cm, mm, in (polegada), px, pt, pc (paica)
+
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %       Recomendação oficial: use em ou px
+
+            16px geralmente = 1em -> em é uma unidade responsiva (prioriza-se o uso).
+            */
+        }
+        h1 {
+            /* Shorhand font:
+            font-style -> font-weight -> font-size -> font-family
+
+            font-size: 1em;
+            font-weight: normal;     
+            font-style: normal;
+            text-decoration: underline;
+            */
+            font: italic bolder 3em "arial" sans-serif;/*Vários comandos na linha(shorthand)*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, repudiandae quas libero soluta reprehenderit, obcaecati nisi saepe et cumque itaque accusamus assumenda corporis a facere velit, illo nihil voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laborum incidunt cumque odio magni? Temporibus minima officiis officia sapiente  fugiat esse ea! Eveniet iure atque nobis quisquam, enim nemo aspernatur.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. At quo reprehenderit quia, architecto asperiores, dolor totam officia quos ad repudiandae qui similique ipsa. Illum dolorem distinctio facilis iste molestiae minus.
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio libero facere molestias nihil voluptate earum vel blanditiis nemo temporibus vero tempora commodi at veritatis asperiores, velit voluptatibus corporis totam id.</p>
+</body>
+</html>

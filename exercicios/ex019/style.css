@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* 
+Em HTML é (id), em CSS é (#) {Só um por página}
+Em HTML é (class), em CSS é (.) {Vários por página}
+*/
+
+body {
+    background-color: #c0e3f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #365D75;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #2c4a5f;
+    color: white;
+}
+
+h2 {
+    color: #487c9c;
+}
+
+.basico {
+    color: #487c9c;
+    font-weight: bold;  /*Para o span no HTML*/
+}
+
+.intermediario{
+    color: #99489c;
+}
+
+.avancado {
+    color: #9c4848;
+}
+
+.destaque {
+    background-color: #5187ad42;
+    /*Isso mostra que um elemento pode ter mais de uma clas se*/
+}

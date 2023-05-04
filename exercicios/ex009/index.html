@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código fonte / Pré-formatado</h2>   <!--Fonte monoespaçada-->
+    <h3>Tag &lt;code&gt;</h3>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. Utilizando a tag &lt;code&gt;, deixamos todos os caracteres com a mesma largura, o que ajuda a escrever códigos.</p>
+    <h3>Tag &lt;pre&gt;</h3>
+    <p>Utilizada quando queremos considerar todos os espaçamentos, tornando a IDE um bloco de notas. Tudo o que estiver dentro da tag &lt;pre&gt; é considerado em formato de texto.</p>
+    <pre>
+        <code>    
+    num = int(input("Digite um número:"))
+    if num % 2 == 0:
+        print(f'O número {num} é par')
+    else:
+        print(f'O número {num} é ímpar')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jon Duckett, em seu livro "Accessible XHTML and CSS Web Sites":</p>
+    <blockquote cite="https://www.amazon.com.br/gp/product/B000PY4MIM/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0">   <!--O parâmetro "cite" não faz diferença visual-->
+        This book teaches anyone who already knows about creating Web pages in HTML how to bring their skills up to date and take advantage of XHTML and CSS to create attractive sites that also meet accessibility laws and guidelines.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+</body>
+</html>
