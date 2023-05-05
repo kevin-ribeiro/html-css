@@ -11,8 +11,16 @@
             background-color: black;
             background-image: url("imagens/wallpaper002.jpg");
             background-position: center center;
-            background-repeat: repeat-y;
+            background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            /* Shorthand - background 
+                color > image > position > repeat > [size] > attachment
+
+            background: black url("imagens/wallpaper002.jpg") center center no-repeat cover fixed; 
+            
+            OBS: valor cover não funciona na shorthand, devendo ser digitado separadamente pela propriedade background-size*/
         }
 
         main {
